@@ -7,7 +7,7 @@ export const HomePage = () => {
   return (
     <div className="container">
       <Header />
-      <Dashboard/>
+      <Dashboard data={smartHomeData} />
       {/* ↓↓↓ Zde z komponent poskládej svůj chytrý dům ↓↓↓ */}
     </div>
   );
