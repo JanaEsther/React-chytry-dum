@@ -1,10 +1,13 @@
+import Lights from './Lights';
+import Climate from './Climate';
 
-const Dashboard = ()=>{
-  return <main class="dashboard">
+const Dashboard = () => {
+  return (
+    <main className="dashboard">
+      <Lights />
+      <Climate />
+    </main>
+  );
+};
 
-
-    
-  </main>;
-}
-
-export default Dashboard
+export default Dashboard;
