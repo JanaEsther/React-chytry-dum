@@ -15,7 +15,7 @@ const Light = ({ name, state }) => {
         <div className="light__icon">
           <img src={state ? light - lightOffUrl : lightOnUrl} alt="Light" />
         </div>
-        <div class="light__name">{name}</div>
+        <div className="light__name">{name}</div>
       </div>
     </>
   );

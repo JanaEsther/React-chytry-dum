@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
+import { useState } from 'react';
 
 const Climate = ({ temperature, humidity }) => {
-  const[temperature, setTemperature] = useState(temperature)
+  const [roomTemperature, setRoomTemperature] = useState(temperature);
   return (
     <div className="climate">
       <div className="climate__icon">
@@ -14,11 +14,16 @@ const Climate = ({ temperature, humidity }) => {
       <div className="climate__controls">
         <button
           className="button"
-          onClick={() => setTemperature(temperature + 1)}
-        >+</button>
-        <button className="button"
-        onClick={()=> setTemperature(temperature - 1)}
-        >-</button>
+          onClick={() => setRoomTemperature(roomTemperature + 1)}
+        >
+          +
+        </button>
+        <button
+          className="button"
+          onClick={() => setRoomTemperature(roomTemperature - 1)}
+        >
+          -
+        </button>
       </div>
     </div>
   );
