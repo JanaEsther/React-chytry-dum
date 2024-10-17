@@ -8,7 +8,7 @@ import './Dashboard.css';
 const Dashboard = ({ data }) => {
   return (
     <main className="dashboard">
-      <Lights data={data.lights} />
+      <Lights lights={data.lights} />
       <Climate
         temperature={data.climate.temperature}
         humidity={data.climate.humidity}

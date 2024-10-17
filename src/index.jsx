@@ -3,5 +3,4 @@ import { HomePage } from './pages/HomePage';
 import './global.css';
 
 createRoot(document.querySelector('#app')).render(
-  <HomePage  />,
-);
+  <HomePage  />);

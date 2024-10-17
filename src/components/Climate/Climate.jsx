@@ -10,7 +10,7 @@ const Climate = ({ temperature, humidity }) => {
         <img src={tempUrl} />
       </div>
       <div className="climate__content">
-        <div className="climate__temperature">{roomTemperature}C</div>
+        <div className="climate__temperature">{roomTemperature}°C</div>
         <div className="climate__humidity">Vlhost vzduchu {humidity}%</div>
       </div>
       <div className="climate__controls">

@@ -21,7 +21,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Noto Sans Mono', monospace;
-  background: #013565 url('../../../html-vzor/images/house') center/cover no-repeat;
+  background: #013565 url('../../../html-vzor/images/house.jpg') center/cover no-repeat;
 }
 
 .container {
@@ -35,7 +35,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #013565 url('/images/header-bg.jpg') center/cover no-repeat;
+  background: #013565 url('../../../html-vzor/images/house.jpg') center/cover no-repeat;
 }
 
 .detail-inner {
