@@ -1,4 +1,5 @@
 import React from 'react';
+import climateUrl from '../../../html-vzor/images/temp.svg';
 import { useState } from 'react';
 
 const Climate = ({ temperature, humidity }) => {
@@ -6,7 +7,7 @@ const Climate = ({ temperature, humidity }) => {
   return (
     <div className="climate">
       <div className="climate__icon">
-        <img src="./images/temp.svg" />
+        <img src="climateUrl" />
       </div>
       <div className="climate__content">
         <div className="climate__temperature">{humidity}C</div>

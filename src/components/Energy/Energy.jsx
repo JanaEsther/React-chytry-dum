@@ -1,4 +1,6 @@
 import React from 'react';
+import electricityUrl from '../../../html-vzor/images/electricity.svg';
+import waterUrl from '../../../html-vzor/images/water.svg';
 import './Energy.css';
 
 const Energy = ({ electricity, water }) => {
@@ -6,7 +8,7 @@ const Energy = ({ electricity, water }) => {
     <div className="energy">
       <div className="energy__source">
         <div className="energy__icon">
-          <img src="./images/electricity.svg" />
+          <img src="electricityUrl" />
         </div>
         <div className="energy__consumption">
           <div className="energy__description">Elektřina</div>
@@ -15,7 +17,7 @@ const Energy = ({ electricity, water }) => {
       </div>
       <div className="energy__source">
         <div className="energy__icon">
-          <img src="./images/water.svg" />
+          <img src="waterUrl" />
         </div>
         <div className="energy__consumption">
           <div className="energy__description">Voda</div>

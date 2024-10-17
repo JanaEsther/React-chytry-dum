@@ -1,5 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
+import blindsOpenUrl from '../../../html-vzor/images/blinds-open.svg'
+import blindsClosedUrl from '../../../html-vzor/images/blinds-closed.svg'
 import './Blinds.css';
 
 const Blinds = ({ state }) => {
@@ -11,10 +13,10 @@ const Blinds = ({ state }) => {
         <img
           src={
             blindsState === 'open'
-              ? '../../html-vzor/images/blinds-open.svg'
-              : '../../html-vzor/images/blinds-closed.svg'
+              ? blindsOpenUrl
+              : blindsClosedUrl
           }
-          alt={blindsState === 'open' ? 'blinds-open' : 'blinds-closed'}
+          alt={blindsState === 'open' ? blindsOpenUrl : blindsClosedUrl}
         />
       </div>
       <div className="blinds__name">Žaluzie</div>
