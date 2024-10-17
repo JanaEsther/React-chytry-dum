@@ -1,10 +1,10 @@
-import Lights from '../Lights';
+import Lights from '../Lights/Lights';
 import Climate from '../Climate/Climate';
 import Blinds from '../Blinds/Blinds';
 import Energy from '../Energy';
 import './Dashboard.css';
 
-const Dashboard = () => {
+const Dashboard = ({data}) => {
   return (
     <main className="dashboard">
       <Lights />

@@ -1,3 +1,4 @@
+import './Energy.css';
 
 const Energy = ({ electricity, water }) => {
   return (
