@@ -1,6 +1,7 @@
 import React from 'react';
-import tempUrl from '../../../html-vzor/images/temp.svg';
 import { useState } from 'react';
+import tempUrl from '../../../html-vzor/images/temp.svg';
+
 
 const Climate = ({ temperature, humidity }) => {
   const [roomTemperature, setRoomTemperature] = useState(temperature);
