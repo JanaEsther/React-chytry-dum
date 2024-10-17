@@ -1,5 +1,5 @@
 import Lights from '../Lights';
-import Climate from '../Climate';
+import Climate from '../Climate/Climate';
 import Blinds from '../Blinds/Blinds';
 import Energy from '../Energy';
 import './Dashboard.css';

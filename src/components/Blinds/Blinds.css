@@ -31,3 +31,15 @@
   padding: 10px 20px 10px 0;
   font-weight: bold;
 }
+
+.blinds__controls {
+  display: flex;
+}
+
+.blinds__controls button:first-child {
+  border-radius: 5px 0 0 5px;
+}
+
+.blinds__controls button:last-child {
+  border-radius: 0 5px 5px 0;
+}
