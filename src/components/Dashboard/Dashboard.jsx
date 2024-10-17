@@ -7,10 +7,10 @@ import './Dashboard.css';
 const Dashboard = ({data}) => {
   return (
     <main className="dashboard">
-      <Lights />
-      <Climate />
-      <Blinds />
-      <Energy />
+      <Lights data={data.lights} />
+      <Climate data={data.climate} />
+      <Blinds data={data.blinds} />
+      <Energy data={data.energyConsumption} />
     </main>
   );
 };
