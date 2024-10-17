@@ -1,3 +1,4 @@
+import React from 'react';
 import './Energy.css';
 
 const Energy = ({ electricity, water }) => {

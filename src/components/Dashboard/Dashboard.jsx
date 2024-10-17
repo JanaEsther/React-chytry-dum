@@ -1,10 +1,13 @@
+import React from 'react';
 import Lights from '../Lights/Lights';
 import Climate from '../Climate/Climate';
 import Blinds from '../Blinds/Blinds';
-import Energy from '../Energy';
+import Energy from '../Energy/Energy';
 import './Dashboard.css';
 
-const Dashboard = ({data}) => {
+const Dashboard = ({ data }) => {
+  console.log('Dashboard data:', data);
+
   return (
     <main className="dashboard">
       <Lights data={data.lights} />
