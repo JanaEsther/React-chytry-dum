@@ -1,5 +1,5 @@
 import { useState } from 'react';
-
+import './Blinds.css';
 
 const Blinds = ({ state }) => {
   const [blindsState, setBlindsState] = useState(state);

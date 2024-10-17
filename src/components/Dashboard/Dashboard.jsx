@@ -1,6 +1,6 @@
 import Lights from '../Lights';
 import Climate from '../Climate';
-import Blinds from '../Blinds';
+import Blinds from '../Blinds/Blinds';
 import Energy from '../Energy';
 import './Dashboard.css';
 
