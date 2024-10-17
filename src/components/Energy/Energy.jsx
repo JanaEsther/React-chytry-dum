@@ -8,7 +8,7 @@ const Energy = ({ electricity, water }) => {
     <div className="energy">
       <div className="energy__source">
         <div className="energy__icon">
-          <img src="electricityUrl" />
+          <img src={electricityUrl}/>
         </div>
         <div className="energy__consumption">
           <div className="energy__description">Elektřina</div>
@@ -17,7 +17,7 @@ const Energy = ({ electricity, water }) => {
       </div>
       <div className="energy__source">
         <div className="energy__icon">
-          <img src="waterUrl" />
+          <img src={waterUrl}/>
         </div>
         <div className="energy__consumption">
           <div className="energy__description">Voda</div>
