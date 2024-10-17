@@ -1,5 +1,5 @@
 import Dashboard from '../../components/Dashboard';
-import Header from '../../components/Header';
+import Header from '../../components/Header/Header';
 import './style.css';
 import smartHomeData from '../../smartHomeData';
 
