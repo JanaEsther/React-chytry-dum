@@ -6,8 +6,6 @@ import Energy from '../Energy/Energy';
 import './Dashboard.css';
 
 const Dashboard = ({ data }) => {
-  console.log('Dashboard data:', data);
-
   return (
     <main className="dashboard">
       <Lights data={data.lights} />
