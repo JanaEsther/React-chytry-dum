@@ -2,9 +2,7 @@ import Light from './Light';
 import './Lights.css';
 
 const Lights = ({ lights }) => {
-  /*if (!lights) {
-    return <div>Loading...</div>;
-  }*/
+
   return (
     <div className="lights">
       {lights.map((light, index) => (
